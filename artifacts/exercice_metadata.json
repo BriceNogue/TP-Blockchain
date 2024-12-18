@@ -1,0 +1,137 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_eleve",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_note",
+						"type": "uint256"
+					}
+				],
+				"name": "addNote",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_eleve",
+						"type": "address"
+					}
+				],
+				"name": "getNom",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_eleve",
+						"type": "address"
+					}
+				],
+				"name": "getNote",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getSender",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_eleve",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "_nom",
+						"type": "string"
+					}
+				],
+				"name": "setNom",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Exercice.sol": "exercice"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Exercice.sol": {
+			"keccak256": "0x4d4785956ce27e9a9edf3fa6b7bc1b68f8e21b4f229ef48b17ef4e69e8d6f152",
+			"urls": [
+				"bzz-raw://71a3b95725bad6067cb0375ef67bef3c2cf0b0510064d3fdd15a650a9a0abb7a",
+				"dweb:/ipfs/QmYKhxqwmiNxaqppnMJCWRxQC9E4TPM81zLLEsbaAuxfcH"
+			]
+		}
+	},
+	"version": 1
+}
